@@ -1,10 +1,10 @@
 function regexVar() {
     /*
      * Declare a RegExp object variable named 're'
-     * It must match a string that starts and ends with the same vowel (i.e., {a, e, i, o, u})
+     * It must match ALL occurrences of numbers in a string.
      */
     
-    var re = RegExp(/^([aeiou]).*\1$/);
+    var re = RegExp('\\d+', 'g');
     
     /*
      * Do not remove the return statement
