@@ -1,9 +1,9 @@
 function main() {
     // Write your code here. Read input using 'readLine()' and print output using 'console.log()'.
     const PI = Math.PI;
-    var r = parseInt(readLine());
+    let r = parseFloat(readLine());
     // Print the area of the circle:
-    var area = PI * r * r;
+    let area = PI * Math.pow(r,2);
     console.log(area);
     
     // Print the perimeter of the circle:
