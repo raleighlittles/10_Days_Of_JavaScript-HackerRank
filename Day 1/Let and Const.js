@@ -9,4 +9,5 @@ function main() {
     // Print the perimeter of the circle:
     var perimeter = 2 * PI * r;
     console.log(perimeter);
+}
     
