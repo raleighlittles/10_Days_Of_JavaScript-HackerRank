@@ -10,4 +10,3 @@ function main() {
     var perimeter = 2 * PI * r;
     console.log(perimeter);
 }
-    
