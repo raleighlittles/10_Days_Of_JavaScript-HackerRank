@@ -4,7 +4,7 @@ function getLetter(s) {
     
     switch (s.charAt(0))
         {
-            case ( 'a' || 'e' || 'o' || 'i' || u):
+            case ( 'a' || 'e' || 'o' || 'i' || 'u'):
                 letter = 'A';
                 break;
                 
